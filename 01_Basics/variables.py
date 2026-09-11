@@ -49,3 +49,12 @@ height_number = float("1.8")
 print(int("25") + 5)
 print(float("2.5") + 1)
 print(str(18) + " years old")
+#String
+first_name = "Mhuzaif"
+last_name = "Beigh"
+print(first_name)
+print(last_name)
+print(first_name + " " + last_name)
+print(len(first_name))
+print(first_name.upper())
+print(first_name.lower())
