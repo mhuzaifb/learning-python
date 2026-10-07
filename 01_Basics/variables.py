@@ -2,12 +2,10 @@ name="Mhuzaif"
 age=18
 height=1.79
 is_student = True
-
 print(name)
 print(age)
 print(height)
 print(is_student)
-
 print(type(name))
 print(type(age))
 print(type(height))
@@ -58,3 +56,122 @@ print(first_name + " " + last_name)
 print(len(first_name))
 print(first_name.upper())
 print(first_name.lower())
+word = "Python"
+print(word[0])
+print(word[1])
+print(word[-1])
+print(word[0:3])
+print(word[2:6])
+print(word[:4])
+print(word[2:])
+print(word[1:5])
+print(word[:2])
+print(word[3:])
+print(word[-3:])
+print(word[::2])
+print(word[::-1])
+print(word)
+print(len(word))
+print("Python" in word)
+print("Java" in word)
+print(word.startswith("Py"))
+print(word.endswith("on"))
+print(word.replace("Python", "Biology"))
+print(word.count("y"))
+print(word.find("th"))
+name = "Mhuzaif"
+age = 18
+height = 1.79
+print(f"My name is {name}.")
+print(f"I am {age} years old.")
+print(f"My height is {height} meters.")
+print(f"My name is {name}, I am {age} years old, and I am {height} meters tall.")
+print(f"{name} is {age} years old.")
+print(f"{age} + 2 = {age + 2}")
+print(f"Height: {height:.3f} m")
+#List
+fruits = ["apple", "banana", "mango"]
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+print(fruits[-1])
+print(len(fruits))
+fruits.append('orange')
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+fruits[0] = "apple"
+fruits[1] = 'grapes'
+print(fruits)
+fruits.insert(1, "banana")
+print(fruits)
+print(fruits.index("grapes"))
+print(fruits.count("apple"))
+fruits.pop()
+print(fruits)
+fruits.sort()
+print(fruits)
+print(fruits[0:2])
+print(fruits[:2])
+print(fruits[1:])
+print(fruits[-2:])
+print("apple" in fruits)
+print("orange" in fruits)
+print("banana" in fruits)
+colors = ("red", "green", "blue")
+print(colors)
+print(colors[0])
+print(colors[-1])
+print(len(colors))
+print("red" in colors)
+print(colors[0:2])
+print(colors[1:])
+print("blue" in colors)
+numbers = {1, 2, 3, 4, 4, 5}
+print(numbers)
+print(len(numbers))
+print(4 in numbers)
+print(10 in numbers)
+numbers.add(6)
+print(numbers)
+numbers.remove(2)
+print(numbers)
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+print(a | b) #union
+print(a & b) #intersection
+print(a - b) #difference
+print(b - a) #difference
+student = {
+    "name" : "Mhuzaif",
+    "age" : 18,
+    "height" : 1.79
+}
+print(student)
+print(student["name"])
+print(student["age"])
+print(student["height"])
+student["age"] = 19
+student["city"] = "Srinagar"
+print(student)
+print(student["age"])
+print(student["city"])
+print(student.get("name"))
+print(student.get("email"))
+print(student.keys())
+print(student.values())
+print(student.items())
+print("age" in student)
+print("email" in student)
+print(student.get("email", "No email provided"))
+student.pop("city")
+print(student)
+del student["height"]
+print(student)
+age = int(input("Enter your age: "))
+if 18 <= age <= 60:
+    print("Working-age adult")
+elif age < 18:
+    print("Minor")
+else:
+    print("Above 60, retire")
