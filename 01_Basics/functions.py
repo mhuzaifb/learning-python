@@ -95,3 +95,7 @@ def add_all(*numbers):
     print(len(numbers))
 add_all(11, 2, 22)
 add_all(22, 33, 434)
+def big(*buy):
+    print(buy)
+    print(len(buy))
+big(12, 23, 435, 546, 5467, 587, 897869)
