@@ -1,0 +1,20 @@
+student_a = {"Maths", "English", "Bioochemistry"}
+student_b = {"Maths", "Physics", "English"}
+print("Student_a", student_a)
+print("Student_b", student_b)
+print(type(student_a))
+student_a.add("Bioinformatics")
+print("With Add:", student_a)
+student_a.update(["Chemistry", "Computer Science"])
+print("With Update:", student_a)
+student_b.remove("Physics")
+print("With Remove:", student_b)
+print(len(student_a))
+print(len(student_b))
+print("Maths" in student_a)
+print("Union", student_a | student_b)
+print("Intersection", student_a & student_b)
+print("Difference", student_a - student_b)
+print("Symmetric", student_a ^ student_b)
+marks = {80, 90, 75, 80, 95, 90, 85}
+print(marks)

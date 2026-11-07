@@ -1,0 +1,28 @@
+subjects = ["Maths", "English", "Biochemistry", "Bioinformatics", "Information Technology"]
+print("Subjects:", subjects)
+print("First subject:", subjects[0])
+print("Last subject:", subjects[-1])
+subjects[1] = "Python"
+subjects.append("EVS")
+print("Total Subjects:",len(subjects))
+print("Updated subjects:",subjects)
+print(subjects[:3])
+print(subjects[2:4])
+print(subjects[-3:])
+print(subjects[:])
+print(subjects[::-1])
+numbers = [45, 12, 78, 23, 12, 90, 34]
+print(numbers)
+numbers.append(100)
+numbers.insert(0, 5)
+print(numbers.count(12))
+print(numbers.index(78))
+numbers.remove(23)
+numbers.sort()
+print(numbers)
+copied = numbers.copy()
+copied.reverse()
+print("Original List:", numbers)
+print("Copied List:", copied)
+for number in numbers:
+    print(number)

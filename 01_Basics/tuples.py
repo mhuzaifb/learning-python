@@ -1,0 +1,16 @@
+subjects = ("Maths", "English", "Biochemistry", "Bioinformatics", "Information Technology")
+print("Tuple =",subjects)
+print("First Subject =", subjects[0])
+print("Last Subject =", subjects[-1])
+print(subjects[:3])
+print("Reverse", subjects[::-1])
+print("Number of Subjects:", len(subjects))
+print("Maths:", subjects.count("Maths"))
+print("Index", subjects.index("Bioinformatics"))
+for index, subject in enumerate(subjects,start=1):
+    print(index, subject)
+student = ("Huzaif", 18, "Biochemistry")
+name, age, course = student
+print(name)
+print(age)
+print(course)
